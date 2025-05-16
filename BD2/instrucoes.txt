@@ -11,3 +11,19 @@ java eachare 127.0.0.1:5000 vizinhos0.txt compartilhar0
 java eachare 127.0.0.1:5001 vizinhos1.txt compartilhar1
 
 
+
+para compilar e rodar o servidor:
+javac -cp .:./lib/postgresql-42.7.5.jar eachare.java
+java -cp .:./lib/postgresql-42.7.5.jar eachare localhost:8080 vizinhos.txt ./server
+
+para rodar o usuário:
+java FileUploaderGUI 
+
+O sistema está funcionando, mas 
+Preciso modificar o código de eachare.java pois o chat não conseguiu corrigir o nome das novas tabelas no código,
+preciso ver quais são os nomes e atributos das tabelas e modificar no código.
+Posso falar dessa incapacidade do chat de corrigir o código na apresentação.
+Após fazer a modificação e testar, devo popular o banco de dados como o chat indicou na conversa (usando python)
+Isso deixará o trabalho pronto para ser entregue segunda, mas preciso ver o que mais preciso entregar,
+acho que um relatógio e um conjunto de slides para apresentar.
+
