@@ -1,0 +1,13 @@
+Instruções para compilar e executar o programa:
+O programa é feito em Java, portanto necessita ter o Kit de Desenvolvimento Java (JDK) instalado no computador.
+Abra o terminal e navegue até o diretório onde está salvo o arquivo (.../SD)
+Use o comando javac para compilar o arquivo eachare.java: javac eachare.java
+Para executar o programa use o comando: java eachare <endereco>:<porta> <vizinhos.txt> <diretorio_compartilhado>
+No zip está presente um arquivo "vizinhos.txt" e uma pasta "compartilhar" que foram usados nos testes do programa, para executar usando eles utilize o comando: java eachare 127.0.0.1:5000 vizinhos.txt compartilhar
+Por fim, é importante que a porta usada para executar o programa não esteja salva no arquivo vizinhos.txt, caso esteje, pode aparecer uma mensagem de erro ao encerrar o programa.
+Obs: é necessário rodar na versão do Java 8 ou posterior
+Comando utilizado no teste:
+java eachare 127.0.0.1:5000 vizinhos0.txt compartilhar0
+java eachare 127.0.0.1:5001 vizinhos1.txt compartilhar1
+
+
